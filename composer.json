@@ -1,0 +1,16 @@
+{
+    "name": "fluent-logging",
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "fluent/logger": "v0.3.7",
+        "kassner/log-parser": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
